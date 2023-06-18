@@ -1,11 +1,7 @@
 name: dogfood-msinternal (prod)
 
 on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
   build:
