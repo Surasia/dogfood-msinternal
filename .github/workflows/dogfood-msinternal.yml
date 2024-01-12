@@ -19,4 +19,4 @@ jobs:
 
       - uses: actions/upload-artifact@v2.2.3
         with:
-          path: Dogfood_DevMain_*_x64_O365ProPlusRetail_en-us.zip
+          path: Production_CC_*_x64_O365ProPlusRetail_en-us.zip
