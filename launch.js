@@ -5,7 +5,7 @@ const https = require("https");
 const getBranch = "Production_CC";
 const getFFN = "492350f6-3a01-4f97-b9c0-c7c6ddf67d60";
 
-const getBuild = "16.0.17531.20120";
+const getBuild = "16.0.17830.20166";
 
 function print(getBranch, getFFN, getBuild) {
     console.log("sudo apt update > /dev/null 2>&1");
